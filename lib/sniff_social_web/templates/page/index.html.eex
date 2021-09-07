@@ -1,0 +1,43 @@
+<h1 class="text-7xl mb-5">Sniff Social</h1>
+<h2 class="text-4xl mb-5">Who's the goodest pup? Spoiler - they're all good!</h2>
+<div>
+  <form class="bg-gray-100 mx-auto max-w-2xl rounded p-5">
+    <label class="block text-left mb-2" for="search">Search for the goodest pup</label>
+    <input class="block w-full rounded p-2 mb-2" id="search" name="search" placeholder="Pup description" />
+    <div class="text-right">
+      <button type="submit" class="bg-blue-500 px-4 py-2 text-white rounded hover:bg-blue-600">Search</button>
+    </div>
+  </form>
+</div>
+<div class="grid grid-cols-3 gap-4 pt-10">
+  <div>
+    <%= link to: "#", class: "hover:opacity-50 block" do %>
+      <img src="https://place-puppy.com/300x300" class="mx-auto rounded-xl" />
+    <% end %>
+  </div>
+  <div>
+    <%= link to: "#", class: "hover:opacity-50 block" do %>
+      <img src="https://place-puppy.com/300x300" class="mx-auto rounded-xl" />
+    <% end %>
+  </div>
+  <div>
+    <%= link to: "#", class: "hover:opacity-50 block" do %>
+      <img src="https://place-puppy.com/300x300" class="mx-auto rounded-xl" />
+    <% end %>
+  </div>
+  <div>
+    <%= link to: "#", class: "hover:opacity-50 block" do %>
+      <img src="https://place-puppy.com/300x300" class="mx-auto rounded-xl" />
+    <% end %>
+  </div>
+  <div>
+    <%= link to: "#", class: "hover:opacity-50 block" do %>
+      <img src="https://place-puppy.com/300x300" class="mx-auto rounded-xl" />
+    <% end %>
+  </div>
+  <div>
+    <%= link to: "#", class: "hover:opacity-50 block" do %>
+      <img src="https://place-puppy.com/300x300" class="mx-auto rounded-xl" />
+    <% end %>
+  </div>
+</div>
